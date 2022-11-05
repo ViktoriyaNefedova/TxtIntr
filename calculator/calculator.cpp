@@ -19,7 +19,7 @@ int main(int argc, char *argv[])
     for (i=2; i<argc; i++){
         st+=1;
     }
-    if ((st > 2 and st<4) or (st>6)){
+    if ((st > 0 and st<4) or (st>6)){
         help();
     }
     while ((opt = getopt (argc, argv, "d:m:")) != -1) {
